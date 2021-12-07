@@ -1,13 +1,13 @@
 # Site settings
 title: ScamToken
 description: >
-  A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
+  The best place to lose your money while pretending to be a crypto investor.
 
 baseurl: "/scamtoken" # the subpath of your site, e.g. /blog/
 url: "https://bmwant.github.io/" # the base hostname & protocol for your site
 
 author:
-  fullname: Pudhina
+  fullname: Scam Token
   github: github
   linkedin: linkedin
   email: example@email.com

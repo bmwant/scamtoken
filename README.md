@@ -1,5 +1,7 @@
 # SCAM
 
+![logo](/assests/img/scam_icon.png)
+
 Welcome to the ScamToken repository!
 
 We are a native token on the Cardano Blockchain.
