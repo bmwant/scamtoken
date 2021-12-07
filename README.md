@@ -1,6 +1,6 @@
 # SCAM
 
-![logo](./assests/img/scam_icon.png)
+![logo](./assets/img/scam_icon.png)
 
 Welcome to the ScamToken repository!
 

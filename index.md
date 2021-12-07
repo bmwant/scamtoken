@@ -10,6 +10,6 @@ sitemap:
 
 <div id="describe-text">
 	<p>This is a really short description about why you should have this token.</p>
-	<p>Fork and use the theme from the <strong> <a href="https://github.com/knhash/Pudhina"> repository</a> </strong>
+	<p>Check more details and our manifesto <strong><a href="{{ '/about' | prepend: site.baseurl }}"> here</a></strong>
   </p>
 </div>
