@@ -3,8 +3,8 @@ title: ScamToken
 description: >
   The best place to lose your money while pretending to be a crypto investor.
 
-baseurl: "/scamtoken" # the subpath of your site, e.g. /blog/
-url: "https://bmwant.github.io/" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://www.scamtoken.site/" # the base hostname & protocol for your site
 
 author:
   fullname: Scam Token
