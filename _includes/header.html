@@ -1,24 +1,22 @@
 <header class="header">
-<div class="navigation">
-<a href="{{ '/' | prepend: site.baseurl }}" class="logo">{{ site.title }}</a>
-<ul class="menu">
-  <li class="menu__entry"><a href="{{ '/pool' | prepend: site.baseurl }}">Pool</a></li>
-  <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-</ul>
-</div>
-<ul class="social-links">
-{% if site.author.email %}
-<a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
-<i class="fa fa-envelope-square"></i>
-</a>
-{% endif %}
-<a href="https://github.com/bmwant/scamtoken" class="social-links__entry" target="_blank">
-<i class="fa fa-github"></i>
-</a>
-{% if site.author.linkedin %}
-<a href="https://in.linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
-<i class="fa fa-linkedin"></i>
-</a>
-{% endif %}
-</ul>
+  <div class="navigation">
+    <a href="{{ '/' | prepend: site.baseurl }}" class="logo">{{ site.title }}</a>
+    <ul class="menu">
+      <li class="menu__entry"><a href="{{ '/pool' | prepend: site.baseurl }}">Pool</a></li>
+      <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+    </ul>
+  </div>
+  <ul class="social-links">
+    <a href="https://twitter.com/DogecoinInUa" class="social-links__entry" target="_blank">
+      <i class="fa fa-twitter"></i>
+    </a>
+    {% if site.author.email %}
+    <a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
+      <i class="fa fa-envelope-square"></i>
+    </a>
+    {% endif %}
+    <a href="https://github.com/bmwant/scamtoken" class="social-links__entry" target="_blank">
+      <i class="fa fa-github"></i>
+    </a>
+  </ul>
 </header>

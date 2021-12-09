@@ -1,7 +1,14 @@
 @charset "UTF-8";
+:root {
+  --main-red: #eb666b;
+  --main-yellow: #D95D39;
+  --main-green:#16a085;
+  --main-blue: #57A;
+  --main-grey: #828282;
+}
 /* =Base *//*************************************************************/
   body {
-    font-family: 'Quicksand', sans-serif;  
+    font-family: 'Quicksand', sans-serif;
     font-size: 100%;
     color: #012;
     background-color: #FFF; }
@@ -42,7 +49,8 @@
       font-weight: 400; }
 
   strong {
-    color: #16a085; }
+    color: var(--main-yellow);
+  }
 
   .wrapper {
     max-width: 800px;
@@ -58,7 +66,7 @@
   .logo {
     font-size: 300%;
     font-weight: 700;
-    color: #16a085;
+    color: var(--main-red);
     display: block; }
 
   .menu {
